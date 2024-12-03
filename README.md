@@ -1,6 +1,7 @@
 # Aplicativo Netflix com Estruturas de Dados
 
 Este projeto é um aplicativo desenvolvido em Java que demonstra a implementação de diversas estruturas de dados, incluindo Árvores AVL e Árvores Binárias de Busca (BST), para gerenciar, processar dados e fazer buscas relacionadas a um catálogo da Netflix.
+</br>
 
 ## Funcionalidades
 
@@ -8,6 +9,7 @@ Este projeto é um aplicativo desenvolvido em Java que demonstra a implementaç�
 - **Árvore Binária de Busca (BST)**: Estrutura clássica para operações de busca e armazenamento.
 - **Processamento de Dados**: Gerenciamento de dados da Netflix utilizando estruturas de dados personalizadas.
 - **Manipulação de Arquivos CSV**: Processamento de arquivos `.csv` contendo informações relevantes.
+</br>
 
 ## Estrutura do Projeto
 
@@ -16,6 +18,7 @@ Este projeto é um aplicativo desenvolvido em Java que demonstra a implementaç�
 - `Node.java`: Definição da estrutura e comportamento de um nó da árvore.
 - `NetflixApp.java` e `ProgramaNetflix.java`: Lógica principal do aplicativo da Netflix.
 - `teste.csv` e `titles.csv`: Conjuntos de dados utilizados no aplicativo.
+</br>
 
 ## Tecnologias Utilizadas
 
@@ -23,17 +26,27 @@ Este projeto é um aplicativo desenvolvido em Java que demonstra a implementaç�
 - **Ferramentas para Desenvolvimento**:
   - JDK 8 ou superior
   - IDE Java (VS Code)
+</br>
 
 ## Fontes de dados
 
 - ```titles.csv```: Contém dados dos títulos da Netflix.
 - ```teste.csv```: Arquivo adicional para testes e validação das funcionalidades.
+</br>
+
+## Como executar
+
+- Baixe os arquivos ou clone o repositório.
+- Deixe os arquivos de ```src``` e ```docs``` juntos no mesmo repositório.
+- Compile os arquivos e execute o ```NetflixApp.java```.
+</br>
 
 ## Exemplos de usos
 
 - **Carregar dados de um arquivo CSV**: A aplicação processa dados de títulos da Netflix diretamente dos arquivos CSV fornecidos.
 - **Busca eficiente**: Utilize as árvores AVL ou BST para realizar buscas rápidas e otimizadas nos dados carregados.
 - **Testes com diferentes arquivos**: Substitua os dados de entrada (teste.csv) para validar o comportamento da aplicação com diferentes datasets.
+</br>
 
 ## Autores
 
